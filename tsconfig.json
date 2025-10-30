@@ -19,7 +19,13 @@
       "path": "./db-schema"
     },
     {
-      "path": "./db-schema"
+      "path": "./shared/ui"
+    },
+    {
+      "path": "./shared/api-interfaces"
+    },
+    {
+      "path": "./shared/utils"
     }
   ]
 }
