@@ -11,7 +11,7 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome @condo-app/condo-app 👋
+              Welcome @condo-app/condo-app 👋 thanks
             </h1>
           </div>
 

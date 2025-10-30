@@ -8,6 +8,18 @@
     },
     {
       "path": "./apps/condo-app"
+    },
+    {
+      "path": "./api-e2e"
+    },
+    {
+      "path": "./api"
+    },
+    {
+      "path": "./db-schema"
+    },
+    {
+      "path": "./db-schema"
     }
   ]
 }
