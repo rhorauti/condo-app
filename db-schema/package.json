@@ -3,19 +3,20 @@
   "version": "0.0.1",
   "private": true,
   "type": "module",
-  "main": "./dist/index.esm.js",
-  "module": "./dist/index.esm.js",
-  "types": "./dist/index.esm.d.ts",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
       "@condo-app/source": "./src/index.ts",
-      "types": "./dist/index.esm.d.ts",
-      "import": "./dist/index.esm.js",
-      "default": "./dist/index.esm.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
     }
   },
   "dependencies": {
-    "prisma": "^6.18.0"
+    "prisma": "^6.18.0",
+    "@prisma/client": "^6.18.0"
   }
 }
